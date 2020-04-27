@@ -5,6 +5,7 @@ const CardList = ({ robots }) => {
   // if (true) {
   //   throw new Error('NOOOOO!');
   // }
+  console.log('CARDLIST');
   const cardArray = robots.map((user, i) => {
     return (
       <Card

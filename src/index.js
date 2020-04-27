@@ -15,8 +15,7 @@ const rootReducter = combineReducers({ searchRobots, requestRobots });
 const store = createStore(
   rootReducter,
   applyMiddleware(
-    thunkMiddleware,
-    logger
+    thunkMiddleware
   )
 );
 
